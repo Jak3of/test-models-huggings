@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        nav {
+            background: #2c3e50;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition-property: all;
+            transition-duration: 0.3s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+        }
+        nav a:hover {
+            background: #34495e;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a la Gestión de Modelos de IA</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/models">Ver Modelos</a></li>
+            </ul>
+        </nav>
+        <p>Utiliza la navegación para explorar las diferentes funcionalidades de la aplicación. 
+           Aquí podrás gestionar y ejecutar diferentes modelos de inteligencia artificial.</p>
+    </div>
+</body>
+</html>
